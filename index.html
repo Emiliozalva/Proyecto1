@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sitio Comercio Electrónico</title>
+    <link rel="stylesheet" href="estilos\styles.css">
     <script src="practica.js"></script>
 </head>
 <body>
    <header>
-        <h1 class: titulo>Sitio comercio electroncio</h1>
-        <div class: barNav>
+        <h1 class="titulo">Sitio Comercio Electrónico</h1>
+        <nav class="barNav">
             <ul>
-            <a href="index.html">Inicio</a>
-            <a href="HTML\catalogo.html">Catalogo</a>
-            <a href="HTML\login.html">Iniciar Sesion</a>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ventanas/catalogo.html">Catálogo</a></li>
+                <li><a href="ventanas/login.html">Login</a></li>
             </ul>
-        </div>
+        </nav>
    </header>
    <main>
-        <div class: producto id: productInicio> 
-            <img src="img/imgpred.png"> 
-            <p class: nom1 id: nom1>nombre</p>
-            <p class: precio1 id: precio1>$$$$</p>
+        <div class="producto" id="productInicio"> 
+            <img src="img/imgpred.png" alt="Producto"> 
+            <p class="nom1" id="nom1">Nombre del producto</p>
+            <p class="precio1" id="precio1">$999.99</p>
             <button>Agregar al carrito</button>
         </div>
    </main>
    <footer>
-
+        <p>&copy; 2025 - Mi Tienda</p>
    </footer>
 </body>
 </html>
