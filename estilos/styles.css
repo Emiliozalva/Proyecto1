@@ -107,7 +107,8 @@ main {
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 15px;
+    
+    padding: 68px;
     background: #222;
     color: #fff;
     font-size: 0.9rem;
