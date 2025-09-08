@@ -10,11 +10,12 @@ body {
     background: #f7f7f7;
     color: #333;
 }
+
 /* HEADER */
 header {
     background: #222;
     color: #fff;
-    padding: 15px;
+    padding: 15px 20px;
     text-align: center;
 }
 
@@ -23,30 +24,38 @@ header .titulo {
     font-size: 2rem;
 }
 
+/* NAVBAR */
 .barNav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 30px;
+    align-items: center; /* centra verticalmente a los enlaces */
+    padding: 0;
+    margin: 0;
 }
 
+/* Estilo específico para los links del navbar */
 .barNav ul li a {
+    display: inline-block; /* para que ::after calcule bien el ancho */
     text-decoration: none;
-    color: #fff;
+    color: #fff; /* color visible sobre fondo oscuro */
     font-size: 1.2rem;
     position: relative;
-    transition: color 0.3s ease;
+    padding: 6px 8px; /* área clickeable mayor */
+    transition: color 0.25s ease;
 }
+
 /* Animación de subrayado en hover */
 .barNav ul li a::after {
     content: "";
     position: absolute;
     width: 0%;
     height: 2px;
-    bottom: -5px;
+    bottom: -6px;
     left: 0;
     background-color: #ff9800;
-    transition: width 0.3s ease;
+    transition: width 0.25s ease;
 }
 
 .barNav ul li a:hover::after {
@@ -56,42 +65,58 @@ header .titulo {
 .barNav ul li a:hover {
     color: #ff9800;
 }
+
 /* MAIN - Producto */
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
+/* mantené tu grid de 3 columnas como querías */
+.listaProducto{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-.producto {
+.listaProducto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 20px; /* Espacio entre productos */
+    padding: 20px;
+    justify-items: center; /* Centra el contenido en cada celda */
+}
+
+/* Usa selector específico para no interferir con otros li */
+.listaProducto li {
     background: #fff;
     padding: 20px;
-    width: 300px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Ocupa el ancho disponible de la celda */
+    max-width: 300px; /* límite para que no se estire demasiado */
 }
-.producto:hover {
+
+.listaProducto li:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
-.producto img {
+
+.listaProducto li img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
 }
-.producto .nom1 {
+
+.listaProducto li .nom1 {
     font-size: 1.3rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.producto .precio1 {
+
+.listaProducto li .precio1 {
     font-size: 1.2rem;
     color: #ff9800;
     margin-bottom: 15px;
 }
-.producto button {
+
+.listaProducto li button {
     background: #ff9800;
     color: #fff;
     border: none;
@@ -101,13 +126,14 @@ main {
     cursor: pointer;
     transition: background 0.3s ease;
 }
-.producto button:hover {
+
+.listaProducto li button:hover {
     background: #e68900;
 }
+
 /* FOOTER */
 footer {
     text-align: center;
-    
     padding: 68px;
     background: #222;
     color: #fff;
