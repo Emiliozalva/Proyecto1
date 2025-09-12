@@ -15,7 +15,4 @@ export class Carrito{
         this._total = this._total - this.listaCarrito[index].precio();
     }
 
-    
-
-
 }

@@ -57,6 +57,38 @@ header .titulo {
     background-color: #ff9800;
     transition: width 0.25s ease;
 }
+.ventana-flotante {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.ventana-flotante h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ventana-flotante ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ventana-flotante li {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .barNav ul li a:hover::after {
     width: 100%;

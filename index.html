@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitio Comercio Electrónico</title>
-    <link rel="stylesheet" href="estilos\styles.css">
-    <script src="practica.js"></script>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <script type="module" src="js/main.js"></script>
 </head>
 <body>
    <header>
-        <h1 class="titulo">Sitio Comercio Electrónico</h1>
+        <h1 class="titulo">Zapatillas Argentinas</h1>
         <nav class="barNav">
             <ul class="listabarranav">
                 <li><a href="index.html">Inicio</a></li>
@@ -17,14 +17,17 @@
                 <li><a href="ventanas/login.html">Login</a></li>
             </ul>
         </nav>
+        <div id="ventanaCarrito" class="ventana-flotante"></div>
    </header>
+
    <main>
         <div class="productos" id="productInicio"> 
             <ul class="listaProducto" id="listaProducto">
-            
+                <!-- Aquí se imprime el catálogo con JS -->
             </ul>
         </div>
    </main>
+
    <footer>
         <p>&copy; 2025 - Mi Tienda</p>
    </footer>
