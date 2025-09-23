@@ -57,5 +57,5 @@ export function printProductos(listaDeEventos){
     }
     
 
-
+ 
 }
