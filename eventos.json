@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nombre": "Test en pista de las nuevas zapatillas UltraRun",
+    "listaFecha": ["15/10", "20/10", "25/10"],
+    "listaHorarios": ["10:00", "12:00", "15:00"],
+    "listaLugares": ["Pista Municipal de Atletismo", "Estadio Central"],
+    "listaServicios": ["Traslado al evento", "Coach especializado", "Fotografía profesional"],
+    "descripcion": "Pon a prueba la velocidad y tracción de las UltraRun en una pista profesional.",
+    "precio": 2500,
+    "imagen": "",
+    "cupoMax": 30
+  },
+  {
+    "id": 2,
+    "nombre": "Prueba de comodidad AirFlex",
+    "listaFecha": ["01/11", "05/11"],
+    "listaHorarios": ["16:00", "18:00"],
+    "listaLugares": ["Shopping Central", "Tienda Deportiva Norte"],
+    "listaServicios": ["Asesoramiento personalizado", "Kit de hidratación"],
+    "descripcion": "Descubre la amortiguación y el confort de las nuevas AirFlex caminando en diferentes superficies.",
+    "precio": 1800,
+    "imagen": "",
+    "cupoMax": 25
+  },
+  {
+    "id": 3,
+    "nombre": "Maratón Demo SpeedRunner",
+    "listaFecha": ["20/11", "22/11", "25/11"],
+    "listaHorarios": ["08:30", "10:00", "12:00"],
+    "listaLugares": ["Parque Costanera", "Circuito Río"],
+    "listaServicios": ["Kit de hidratación", "Medalla de participación", "Entrenador profesional"],
+    "descripcion": "Corre 5 km con las SpeedRunner y experimenta su ligereza y durabilidad en acción.",
+    "precio": 3000,
+    "imagen": "",
+    "cupoMax": 50
+  },
+  {
+    "id": 4,
+    "nombre": "Sesión Indoor GripX",
+    "listaFecha": ["05/12", "10/12"],
+    "listaHorarios": ["19:00", "20:30"],
+    "listaLugares": ["Gimnasio PowerFit", "Sala Indoor Pro"],
+    "listaServicios": ["Acceso a vestuarios premium", "Coach especializado", "Fotografía profesional"],
+    "descripcion": "Prueba el agarre y la estabilidad de las GripX en un circuito indoor de alta intensidad.",
+    "precio": 2200,
+    "imagen": "",
+    "cupoMax": 20
+  },
+  {
+    "id": 5,
+    "nombre": "Trail Experience MountainClimbers",
+    "listaFecha": ["12/12", "15/12", "18/12"],
+    "listaHorarios": ["07:00", "08:00", "09:00"],
+    "listaLugares": ["Sendero Sierra Alta", "Bosque del Valle"],
+    "listaServicios": ["Guía de montaña", "Kit de hidratación", "Transporte incluido"],
+    "descripcion": "Vive la aventura en un recorrido de montaña de 10 km usando las MountainClimbers.",
+    "precio": 3500,
+    "imagen": "",
+    "cupoMax": 40
+  },
+  {
+    "id": 6,
+    "nombre": "Prueba urbana CityWalk",
+    "listaFecha": ["20/12", "22/12"],
+    "listaHorarios": ["18:00", "19:30"],
+    "listaLugares": ["Centro Histórico", "Zona Comercial Norte"],
+    "listaServicios": ["Fotografía del evento", "Asesoramiento personalizado"],
+    "descripcion": "Recorrido urbano para comprobar la resistencia y comodidad de las nuevas CityWalk.",
+    "precio": 1600,
+    "imagen": "",
+    "cupoMax": 35
+  },
+  {
+    "id": 7,
+    "nombre": "Entrenamiento explosivo JumpBoost",
+    "listaFecha": ["10/01", "12/01"],
+    "listaHorarios": ["17:00", "18:30"],
+    "listaLugares": ["Cancha de Básquet Municipal", "Gimnasio PowerFit"],
+    "listaServicios": ["Entrenador profesional", "Kit de hidratación", "Medalla de participación"],
+    "descripcion": "Pon a prueba la reactividad y rebote de las JumpBoost en un entrenamiento de salto vertical.",
+    "precio": 2700,
+    "imagen": "",
+    "cupoMax": 25
+  },
+  {
+    "id": 8,
+    "nombre": "Running nocturno LightStep",
+    "listaFecha": ["20/01", "22/01", "25/01"],
+    "listaHorarios": ["21:00", "22:00"],
+    "listaLugares": ["Costanera Iluminada", "Parque de la Ciudad"],
+    "listaServicios": ["Kit luminoso", "Guía nocturno", "Fotografía profesional"],
+    "descripcion": "Carrera nocturna de 7 km para experimentar la visibilidad y comodidad de las LightStep con reflectores integrados.",
+    "precio": 2800,
+    "imagen": "",
+    "cupoMax": 40
+  }
+]
