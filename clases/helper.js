@@ -23,14 +23,11 @@ function imprimirEventos(e){
             <img src="${evento.getImagen()}" alt="${evento.getNombre()}">
             <h3>${evento.getNombre()}</h3>
             <p>${evento.getDescripcion()}</p>
-            <span>Fecha: ${evento.getFecha()}</span>
-            <span>Lugar: ${evento.getLugar()}</span>
-            <span>Hora: ${evento.getHorario()}</span>
-            <span>Precio: $${evento.getPrecio()}</span>
-            <button class="agregar-carrito" data-id="${evento.getId()}">Agregar al carrito</button>
+            <p>Precio: $${evento.getPrecio()}</p>
         `;
+        li.addEventListener("click", () => {
+    localStorage.setItem("eventoId", evento.getId());
+    window.location.href = "evento.html";});
     contenedor.appendChild(li); 
     }
-//// AGREgAR BOTON DE RESERVAR
-
 }
