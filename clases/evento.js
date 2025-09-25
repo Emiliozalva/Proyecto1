@@ -1,4 +1,4 @@
-class Evento {
+export class Evento {
     #id;
     #nombre;
     #listaFecha;

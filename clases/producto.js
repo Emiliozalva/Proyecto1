@@ -1,4 +1,4 @@
-class producto {
+export class producto {
     nombre; 
     precio;
     descripcion;

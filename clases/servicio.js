@@ -1,4 +1,4 @@
-class Servicio{
+export class Servicio{
     #id;
     #nombre;
     #descripcion;
